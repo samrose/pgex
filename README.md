@@ -6,7 +6,7 @@ This repository is a simple demonstration of supplying Postgresql built-binaries
 ## Getting started
 
 
-1. [Install Nix](https://github.com/DeterminateSystems/nix-installer?tab=readme-ov-file#usage)
+1. [Install Nix](https://github.com/DeterminateSystems/nix-installer?tab=readme-ov-file#usage) (this installer turns on the options automatically to install a package from a nix flake url)
 2. Next, run `nix profile install github:samrose/pgex#pgex` . This command will install the latest Postgresql release binaries to your system $PATH. Once this command completes, you can check that the Postgres binaries are being source by nix:
     ```
     $ which initb
