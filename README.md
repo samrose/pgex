@@ -1,6 +1,8 @@
 # Postgres via Nix
 
-This repository is a simple demonstration of supplying Postgresql built-binaries via a Nix package, but using and running the Postgres server/cluster outside of the control of nix (for example, supplying your own data dir, postgesql.conf, etc)
+This repository is a simple demonstration of supplying Postgresql built-binaries via a Nix package, but using and running the Postgres server/cluster outside of the control of nix (for example, supplying your own data dir, postgesql.conf, etc). 
+
+This approach should work on Linux, macOS, and windows via wsl2
 
 
 ## Getting started
